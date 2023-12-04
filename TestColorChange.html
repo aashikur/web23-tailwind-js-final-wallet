@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="asset/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Banking - Assingment 02 </title>
+</head>
+
+<body>
+
+    <!-- navigation sectoin  -->
+    <section class="w-full shadow">
+        <nav class="py-8 max-w-7xl px-12 flex m-auto justify-between ">
+            <div class="logo text-2xl font-bold">
+                <a href="index.html">SMART-WALLET</a>
+            </div>
+            <div class="">
+                <img class="h-10 cursor-pointer opacity-70 hover:opacity-100" src="asset/images/bag.png">
+            </div>
+        </nav>
+    </section>
+    <!-- navigation sectoin  -->
+
+
+
+    <!-- ============  Test Section ===========  --> 
+    <!-- button  -->
+    <section class=" bg-teal-50  w-full py-4  shadow flex justify-center gap-4">
+        <button onclick="toggleDarkMode()" type="button" class="hover:opacity-90  border-2 border-solid rounded-full h-16 w-32 bg-[#060C1C] text-white" >
+            Dark/Light</button>
+        <!-- <button type="submit" class="hover:opacity-90  border-2 border-solid rounded-full h-16 w-16 text-[#222] bg-white" >
+            Light</button> -->
+        <button type="reset" class="hover:opacity-90  border-2 border-solid rounded-full h-16 w-16 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white" >
+            Auto</button>
+
+    </section>
+    <!-- button  -->
+
+    <section id="test_section" class="py-5 justify-around flex h-fit w-full px-12 bg-slate-400">
+        <div class="bg-green-300 w-[20vh] h-[20vh]" ></div>
+        <div class="bg-blue-300 w-[20vh] h-[20vh]" ></div>
+    </section>
+
+    <!-- ============  Test Section ===========  -->
+
+    <style>
+
+        .dark{
+            background-color:rgb(0,0,0);
+        }
+
+
+    </style>
+    <script>
+    function toggleDarkMode(){
+        const content = document.body;
+        content.classList.toggle('dark');
+    }
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer  -->
+    <footer class="w-full h-fit bg-gray-100">
+        <!-- Main Menu  -->
+        <div class="space-y-6 sm:space-y-0  flex flex-col md:flex-row justify-between py-8 max-w-7xl px-12">
+                <!-- menu 1  -->
+            <ul class="flex gap-10 text-sm">
+                <li class="uppercase cursor-pointer hover:text-blue-800">About</li>
+                <li class="uppercase cursor-pointer hover:text-blue-800">How it work</li>
+                <li class="uppercase cursor-pointer  hover:text-blue-800">Contact</li>
+            </ul>
+                <!-- logo  -->
+            <div class="logo uppercase text-lg  hover:text-blue-800"><a href="#0">Smart-wallet</a></div>
+
+            <!-- Signup - Right Menu  -->
+            <div class="flex flex-row space-x-2">
+                <a class=" hover:text-blue-800" href="#0">Singup</a>
+                <a class=" hover:text-blue-800" href="#0">Login</a>
+                <!-- Right social  -->
+                <ul class="flex flex-row space-x-2">
+                    <li class=" hover:text-blue-800 cursor-pointer">Fb</li>
+                    <li class=" hover:text-blue-800 cursor-pointer">In</li>
+                    <li class=" hover:text-blue-800 cursor-pointer">Yt</li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+    <!-- Footer  -->
+
+</body>
+
+</html>

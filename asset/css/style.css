@@ -1,0 +1,112 @@
+/* Fonts */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@700&family=Inter:wght@700&family=Roboto:wght@300;500&family=Ruda:wght@500&display=swap');
+/*
+font-family: 'Bai Jamjuree', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Ruda', sans-serif;
+ */
+
+.logo{
+    font-family: 'Ruda', sans-serif;
+}
+body{
+    background-color: #F8FCFF;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color:#535354;
+}
+.hero p {
+    font-size: 18px;
+ 
+}
+h1{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px !important;
+}
+
+.btn{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color:#222223;
+    border-radius: 5px;
+}
+
+ /*========= Dark Mode Setting ============  */
+ .dark{
+    background-color: rgb(29, 29, 29);
+ }
+ .dark p {
+    color:rgb(133, 133, 133);
+ }
+ .dark .logo a, .dark h1,.dark h2,.dark h3, .dark .btn span{
+    color:rgb(231, 231, 231);
+ }
+
+.dark .w-full.shadow{
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.dark .d-btn :last-child {
+    padding-top: 16px;
+    padding-bottom: 16px;
+} 
+.dark .d-btn :first-child {
+    padding-top: 15px;
+    padding-bottom: 15px;
+} 
+
+.dark i {
+    color: white;
+    border-color: white;
+}
+
+.dark footer {
+    background: #101010 !important;
+    color: white;
+    text-decoration: underline;
+}
+
+.dark button.try-btn img {
+    border-right: 2px solid white;
+    padding-left: 6px;
+}
+
+.dark button.try-btn {
+    border-color: white;
+    border: 2px solid white;
+}
+
+.dark .form-titile {
+ color:   rgb(59 130 246 );
+}
+
+ /*========= Dark Mode Setting ============  */
+ /*========= Dark Mode Setting ============  */
+ .dark section.bank {
+    background: black;
+}
+
+.dark section.bank h2 {
+    color: black;
+}
+
+.dark section.bank p {
+    color: white !important;
+}
+
+.dark section.bank .dpsit-withdrawl > div  {
+    background: lightgrey;
+}
+
+.dark section.bank .error-messes p {
+    color: red !important;
+}
