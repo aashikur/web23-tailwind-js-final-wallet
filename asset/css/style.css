@@ -32,12 +32,16 @@ h2{
     font-family: 'Inter', sans-serif;
     font-size: 20px !important;
 }
+h1,h2{
+    color: #58c2ff;
+}
 
 .btn{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    color:#222223;
+    color:#1b8cce ;
     border-radius: 5px;
+   /* background-color: #58c2ff; */
 }
 
  /*========= Dark Mode Setting ============  */
@@ -48,9 +52,11 @@ h2{
     color:rgb(133, 133, 133);
  }
  .dark .logo a, .dark h1,.dark h2,.dark h3, .dark .btn span{
-    color:rgb(231, 231, 231);
+    color:rgb(238, 238, 238);
  }
-
+.dark .btn img{
+    background-color: #1D1D1D;
+}
 .dark .w-full.shadow{
   box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
