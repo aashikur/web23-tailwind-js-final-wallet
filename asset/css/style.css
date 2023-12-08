@@ -99,6 +99,9 @@ h3 {
 }
 
  /*========= Dark Mode Setting ============  */
+ body{
+    transition: background 150ms;
+ }
  /*========= Dark Mode Setting ============  */
  .dark section.bank {
     background: black;
